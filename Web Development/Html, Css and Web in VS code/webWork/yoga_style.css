@@ -1,0 +1,93 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: darkslategray;
+}
+
+.textIn {
+  padding-top: 200px;
+  padding-left: 80px;
+  margin-left: 170px;
+  text-transform: uppercase;
+  color: whitesmoke;
+  transition: color 0.5s;
+}
+.textIn h1 {
+  padding-right: 20px;
+}
+.imageIn img {
+  padding-top: 120px;
+  height: 350px;
+  width: 380px;
+  margin-right: 300px;
+}
+.textIn :hover {
+  color: rgb(212, 72, 212);
+}
+.myform {
+  display: flex;
+  flex-direction: column;
+}
+.infomentics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: unset;
+}
+.form {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 50%;
+}
+
+/*NavBar*/
+.navbarContainer {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  justify-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+  color: whitesmoke;
+}
+.navbarLeft {
+  margin-left: 20px;
+
+  border-bottom: 1px solid gray;
+}
+.navbarRight {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+.navbarRight a {
+  color: whitesmoke;
+  margin-right: 20px;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.5s;
+  transition: border-bottom 0.5s;
+}
+
+.navbarRight a:hover {
+  color: rgb(212, 72, 212);
+  border-bottom: 1px solid rgb(212, 72, 212);
+}
+/*
+.bottomE{
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-right: 100px;
+    margin-top: 360px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: gray;
+    font-size: 18px;
+
+}*/

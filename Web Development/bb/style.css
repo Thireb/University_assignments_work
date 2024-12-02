@@ -1,0 +1,60 @@
+body {
+  background-color: #23272a;
+  color: #99aab5;
+  font-size: larger;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+
+}
+
+.container {
+  margin-left: 40%;
+  margin-top: 10%;
+  width: 350px;
+  border-radius: 12px;
+  background-color: #2c2f33;
+  height: max-content;
+}
+.heading {
+  text-align: center;
+  font-size: 34px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+.main {
+  margin-left: 5%;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.button {
+  text-align: center;
+  margin-top: 5%;
+}
+label {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+input {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-top: 3px;
+  margin-bottom: 6px;
+}
+#f_name,
+#l_name,
+#cit_y,
+#user,
+#pass_word,
+#blood_group,
+#contact_number,
+#_cnic,
+#addr_ess,
+#sea_rch {
+  width: 300px;
+}
+.cancelTag{
+    color: green;
+}

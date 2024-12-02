@@ -1,0 +1,5 @@
+docs,itr,sub,super
+2246,2000,550,25-multinomial /Topic Labeling using multinomial distribution
+2000,100,200,20-Intractive Topic Modeling
+100,200,50,20-Topic Modeling beyond bag of words
+1000,2000,700,50-A text mining reseach based on LDA topic modeling

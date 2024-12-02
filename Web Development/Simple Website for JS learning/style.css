@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.home-container{
+    margin-left: 30px;
+    margin-top: 50px;
+    color: green;
+}
+
+
+.list-container{
+    margin-left: 50px;
+    justify-content: center;
+}
+.list-container li{
+    color: red;
+}
+
+img{
+    display: block;
+    margin-left: 50px;
+    size: 50px;
+}

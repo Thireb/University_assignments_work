@@ -1,0 +1,69 @@
+.backBox{
+
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: center;
+
+}
+.backBox .box{
+    padding: 140px;
+    margin: 20px;
+    height: 150px;
+    width: 150px;  
+}
+.box1 img{
+    padding-top: 0px;
+    margin-top: 0px;
+    height: 120px;
+    width: 140px
+}
+.box p{
+    height: 180px;
+    width: 180px;
+}
+
+/*Nav bar*/
+.navBox{
+    margin: 0;
+    padding: 0;
+    
+
+}
+.navItems{
+    box-sizing: border-box;
+    list-style: none;
+    padding-top: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: center;
+    
+}
+.navItems li{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+.navItems a{
+    
+    text-decoration: none;
+    color: gray;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    transition: color 0.5s;
+    
+
+}
+.navItems li:hover{
+    border-bottom: 1px solid black;
+}
+.navItems a:hover{
+    color: black;
+}

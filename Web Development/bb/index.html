@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin login</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form action="adminform.php" method="POST">
+        <div class="heading"><label>Admin Login</label></div>
+        <div class="main">
+          <label for="username">User Name:</label>
+          <input
+            type="text"
+            name="user"
+            id="user"
+            placeholder="Enter Username"
+          /><br />
+          <label for="password">Password: </label>
+          <input
+            type="password"
+            name="pass"
+            id="pass_word"
+            placeholder="Enter Your Password"
+          /><br />
+          <div class="button">
+            <input type="submit" value="submit" />
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="userid">*Required. Enter your ID here between 5-10 characters.</label>
+        <input type="number" name="UserID" required><br>
+        <label for="pass">*Required. Password likho 7-12 alfaaz tak</label>
+        <input type="password" name="password" required><br>
+        <label for="name">*Required. Enter your Name.</label>
+        <input type="text" name="Name" required >  <br>
+        <label for="address">enter your addresss here</label>
+        <input type="text" name="address">  <br>
+        <label for="country">State your conuntry Russian </label>
+        <input type="text" name="country"><br>
+        <label for="zipcode">*Required. Enter your Zipcode </label>
+        <input type="number" name="zipcode" required><br>
+        <label for="email">*Required.  Enter your email  </label>
+        <input type="email" name="emailID"  required><br>
+        <label for="gender">*Required. Choose your gender. I don't care either way.....</label><br>
+        <input type="radio" name="gender"  value="male" required>
+        <label for="male"> male </label><br>
+        <input type="radio" name="gender"  value="female" required>
+        <label for="female"> female </label><br>
+        <input type="radio" name="gender"  value="other" required>
+        <label for="other">Other</label><br>
+        <label for="language">*Required. Enter your language</label>
+        <input type="text" name="language"  required><br>
+        <label for="about">Tell about yourself</label>
+        <input type="text" name="about" > <br>
+        <input type="submit" value="submit" onclick="checklengthuser(document.form.UserID,5,10);checklengthpass(document.form.password,7,12)">
+
+
+    </form>
+    <script src="lab10.js"></script>
+</body>
+</html>

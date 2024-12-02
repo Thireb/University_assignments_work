@@ -1,0 +1,35 @@
+.navbarContainer {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  justify-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+  color: whitesmoke;
+}
+.navbarLeft {
+  margin-left: 20px;
+
+  border-bottom: 1px solid gray;
+}
+.navbarRight {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+.navbarRight a {
+  color: whitesmoke;
+  margin-right: 20px;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.5s;
+  transition: border-bottom 0.5s;
+}
+.navbarRight a:hover {
+  color: rgb(212, 72, 212);
+  border-bottom: 1px solid rgb(212, 72, 212);
+}

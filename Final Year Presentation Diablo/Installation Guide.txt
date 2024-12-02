@@ -1,0 +1,17 @@
+Requirements:
+OS: Arch Linux
+Storage: SSD
+Ram: 16 GB ECC
+Languague: Python, C
+Packages: nltk, tomotopy, gensim, django, stop_words, pandas, gcc
+
+How To Run:
+- Make sure you have all the packages installed.
+- Open the project directory/folder where manage.py file is.
+- Open terminal/cmd/powershell there and type "python manage.py makemigrations" without quotes in the terminal.
+- Then type "python manage.py migrate".
+- Then type "python manage.py runserver".
+- Open your browser and type in the URL/Address bar, "localhost:8000", and it'll take you to the homepage of the project.
+- Enter the Column name from which data is to be accessed. Column name must be the one used in the CSV file and is case sensitive.
+- Select the CSV file for input and click on 'Submit'.
+- Wait for the code to run and it'll automatically take you to the result page.

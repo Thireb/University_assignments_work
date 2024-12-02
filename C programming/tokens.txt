@@ -1,0 +1,4 @@
+('Token type: ', 'INTEGER', ' ,Token value: ', 5)
+('Token type: ', 'PLUS', ' ,Token value: ', '+')
+('Token type: ', 'INTEGER', ' ,Token value: ', 68)
+('Token type: ', 'INTEGER', ' ,Token value: ', 0)

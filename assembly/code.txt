@@ -1,0 +1,40 @@
+[org 0x100]
+
+jmp here
+array: dw 4,6,8,6,3
+
+pos: 	push bp
+    	mov bp,sp
+
+  	 push bx
+   	 push si
+  	 push cx
+
+	 mov ax,0
+   	 mov bx,[bp+6]
+   	 mov cx,[bp+4]
+   	 mov si,0
+
+compare: 	cmp word [bx+si],0
+        	 jl skip
+        	 add  ax,1
+
+
+skip:	 add si,2
+      	dec cx
+      	jnz compare
+
+	      pop cx
+	      pop si
+	      pop bx
+      	      ret 4
+
+here:
+	        push data
+       	        push 6
+       	         call pos
+
+
+end :
+mov ax,0x4c00
+int 0x21

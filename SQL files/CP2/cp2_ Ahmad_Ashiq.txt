@@ -1,0 +1,21 @@
+CREATE TABLE product(
+    p_id numeric(4),
+    p_name varchar(25),
+    p_price numeric,
+    PRIMARY KEY(p_id)
+
+
+);
+
+CREATE TABLE customer(
+    c_id numeric(4),
+    c_name varchar(35),
+    p_id numeric,
+    PRIMARY KEY (c_id),
+    CONSTRAINT product_identity FOREIGN KEY(p_id) REFERENCES product(p_id) ON DELETE SET null ON UPDATE CASCADE
+
+
+
+
+);
+

@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding-top: 50px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    
+}
+.firstFour{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.member{
+    
+    border: 1px solid black;
+    padding: 70px;
+    width: 400px;
+}
+.member img{
+    padding-bottom: 20px;
+    padding-left: 50px;
+    justify-content: center;
+    
+}
+.member div{
+    text-align: center;
+    
+
+}
+.umair{
+    background-color: crimson;
+    color: rgb(255, 255, 255);
+}
+.zunair{
+    background-color: rgb(236, 236, 76);
+}
+.ahmar{
+    background-color: rgb(73, 231, 126);
+}
+.maham{
+    background-color: brown;
+}
